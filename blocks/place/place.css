@@ -1,5 +1,5 @@
 .places{
-  max-width: 987px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .place{
@@ -24,7 +24,7 @@
   grid-area: place__title;
 }
 .place__photo{
-  max-width: 460px;
+  max-width: 100%;
   grid-area: place__photo;
 }
 .place__author{
@@ -39,7 +39,7 @@
 }
 .place__text{
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 29px;
   grid-area: place__text;
 }
@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 768px) {
   .places{
-    max-width: 720px;
+    max-width: 100%;
     margin: 0 auto;
   }
   .place{
@@ -60,13 +60,13 @@
     line-height: 46px;
   }
   .place__photo{
-    max-width: 340px;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places{
-    max-width: 288px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -89,7 +89,7 @@
     margin: 0;
   }
   .place__photo{
-    max-width: 288px;
+    max-width: 100%;
   }
   .place__button{
     font-size: 14px;

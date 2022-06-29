@@ -1,5 +1,5 @@
 .cover{
-  max-width: 1184px;
+  max-width: 100%;
   min-height: 714px;
   margin: 0 auto;
   text-align: center;
@@ -21,19 +21,14 @@
   margin: 10px;
 }
 .cover__subtitle{
-  max-width: 210px;
+  max-width: 230px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 22px;
   margin: 0 auto;
 }
-.cover__button{}
 
-@media screen and (max-width: 768px) {
-  .cover {
-    max-height: 746px;
-  }
-}
+@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 320px) {
   .cover {
@@ -44,4 +39,9 @@
     font-size: 32px;
     margin: 10px;
   }
+  .cover__subtitle{
+    font-size: 14px;
+    line-height: 16px;
+  }
+
 }
