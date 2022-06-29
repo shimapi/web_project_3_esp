@@ -1,0 +1,21 @@
+body{
+  background-color: #2A2C2F;
+  font-family: inter, sans serif;
+  color: #fff;
+}
+.container{
+  width: 1280px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container{
+    width: 288px;
+  }
+}
