@@ -3,13 +3,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  display: flex;
   margin: auto;
   justify-content: center;
-
 }
-.photo-grid__item{}
-
 .photo-grid__image {
   max-width: 284px;
   max-height: 213px;
