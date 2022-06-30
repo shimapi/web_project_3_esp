@@ -13,7 +13,7 @@
   ". place__text";
   padding-bottom: 80px;
   justify-content: center;
-  max-width: 100%;
+  max-width: 95%;
 }
 .place__button{
   grid-area: place__button;
@@ -81,7 +81,7 @@
     "place__button";
     padding-bottom: 20px;
     justify-content: center;
-    max-width: 100%;
+    max-width: 95%;
   }
   .place__title{
     font-size: 32px;

@@ -4,7 +4,7 @@ body{
   color: #fff;
 }
 .container{
-  width: min(1280px,100vw);
+  width: min(1280px,100%);
   margin: 0 auto;
 }
 
